@@ -4,6 +4,7 @@ import googletrans
 import argparse
 import json
 from os import path
+from sys import exit
 
 """
 -i input json file
