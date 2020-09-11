@@ -18,10 +18,17 @@ A JSON Translator implemented in python, which can translate a json file to diff
 ## 1. Table of Contents
 
 - [1. Table of Contents](#1-table-of-contents)
-- [2. How to use](#2-how-to-use)
-- [3. Authors](#3-authors)
+- [2. Features](#2-features)
+- [3. How to use](#3-how-to-use)
+- [4. Authors](#4-authors)
 
-## 2. How to use
+## 2. Features
+
+- Fake user agent supported
+- Translate through proxies to avoid blocking
+- Unlimited and free translate from google
+
+## 3. How to use
 
 Example
 ```sh
@@ -143,7 +150,7 @@ Supported languages
 - **yo**: yoruba
 - **zu**: zulu
 
-## 3. Authors
+## 4. Authors
 
 - [@hokamc](https://github.com/hokamc)
 

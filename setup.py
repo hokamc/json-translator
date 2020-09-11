@@ -7,5 +7,5 @@ setup(
     author='Man Foo',
     author_email='hokamc00@gmail.com',
     scripts=["src/translator.py"],
-    install_requires=['googletrans'],
+    install_requires=['googletrans', 'fake-useragent', 'proxyscrape'],
 )

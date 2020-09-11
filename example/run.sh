@@ -1,1 +1,1 @@
-python ../src/translator.py -i test.json -o . -il en -ol tr th
+python ../src/translator.py -i test.json -o . -il en -ol tr th ja ko ru
