@@ -41,6 +41,8 @@ if __name__ == '__main__':
                 translations = translator.translate([str(x) for x in json_result.values()], src=args.input_language, dest=output_lang)
                 result = dict()
                 for index in range(len(translations)):
+                    if json_result[keys[index]] == translations[index].text:
+                        print('!!!! invalid translate, key: {}, value: {} !!!!'.format(keys[index], translations[index].text))
                     result[keys[index]] = translations[index].text
                 with open(path.join(args.output, output_lang + '.json'), mode='w', encoding='utf-8') as output_json_file:
                     json.dump(result, output_json_file, ensure_ascii=False)
